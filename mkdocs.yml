@@ -1,0 +1,32 @@
+site_name: AI-Powered Work Systems
+
+nav:
+  - Home: index.md
+  - Module 0 - Foundation & Setup:
+    - Overview: module-0/index.md
+    - 0.1 Course Orientation: module-0/sections/0-1-course-orientation.md
+    - 0.2 Essential Setup: module-0/sections/0-2-essential-setup.md
+    - 0.3 Understanding Your Workspace: module-0/sections/0-3-workspace-understanding.md
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - navigation.tabs
+    - navigation.path
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+

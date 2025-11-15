@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "c815e691fdd42d23",
+    "type": "split",
+    "children": [
+      {
+        "id": "7437568c788af8c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3abb0c2373529f2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/module-0/sections/0-2-essential-setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0-2-essential-setup"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7b9dcccb8b67c73",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebae2dd662d66c21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eaf6285049019122",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "33b6fa6daf2ca15c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "77e2c6758680d802",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "312862446dd3bb3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb14f5e210ee6778",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c80409366d99ca6d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/module-0/sections/0-2-essential-setup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 0-2-essential-setup"
+            }
+          },
+          {
+            "id": "de9c214cedb5814c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/module-0/sections/0-2-essential-setup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 0-2-essential-setup"
+            }
+          },
+          {
+            "id": "768495b3313cfcac",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bb94d7511be16ad8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/module-0/sections/0-2-essential-setup.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 0-2-essential-setup"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "3abb0c2373529f2c",
+  "lastOpenFiles": [
+    "docs/module-0/sections/0-2-essential-setup.md",
+    "docs/module-0/sections/0-1-course-orientation.md",
+    "prompt.md.md",
+    "docs/module-0/sections/0-2-essential-setup.md.tmp.13720.1763234356416",
+    "docs/module-0/sections/0-1-course-orientation.md.tmp.13720.1763234235509",
+    "docs/module-0/index.md.tmp.13720.1763234163656",
+    "docs/index.md.tmp.13720.1763234080469",
+    "mkdocs.yml.tmp.13720.1763234063268",
+    "docs/module-0/sections/0-3-workspace-understanding.md",
+    "docs/module-0/sections/0-3-workspace-understanding.md.tmp.13720.1763234045857",
+    "docs/module-0/sections/0-2-essential-setup.md.tmp.13720.1763234029062",
+    "docs/module-0/sections/0-1-course-orientation.md.tmp.13720.1763234015228",
+    "docs/module-0/index.md",
+    "docs/module-0/index.md.tmp.13720.1763234001521",
+    "docs/module-0/sections",
+    "COURSE.md",
+    "CLAUDE.md",
+    "docs/index.md",
+    "README.md",
+    "venv/lib/python3.12/site-packages/material/templates/assets/images/favicon.png",
+    "venv/lib/python3.12/site-packages/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.svg",
+    "venv/lib/python3.12/site-packages/mkdocs/themes/mkdocs/img/grid.png",
+    "venv/lib/python3.12/site-packages/mkdocs_get_deps-0.2.0.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.12/site-packages/pymdown_extensions-10.17.1.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.12/site-packages/backrefs-6.1.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.12/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.12/site-packages/markdown-3.10.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.12/site-packages/mkdocs_material_extensions-1.3.1.dist-info/licenses/LICENSE.md",
+    "venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+    "Welcome.md"
+  ]
+}
