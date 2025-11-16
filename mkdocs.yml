@@ -23,6 +23,19 @@ nav:
     - Exercises:
       - Decision Tree Exercise: module-2/exercises/decision-tree-exercise.md
       - Product Ecosystem Exploration: module-2/exercises/product-ecosystem-exploration.md
+  - Module 3 - Claude Deep Dive:
+    - Overview: module-3/index.md
+    - "3.1 Claude Products Explained": module-3/sections/3-1-claude-products.md
+    - "3.2 Claude Projects: Organizing Context": module-3/sections/3-2-claude-projects.md
+    - "3.3 Claude Skills: The Game-Changer": module-3/sections/3-3-claude-skills.md
+    - "3.4 Creating Your First Custom Skill": module-3/sections/3-4-creating-first-skill.md
+    - "3.5 Advanced Claude Techniques": module-3/sections/3-5-advanced-claude-techniques.md
+    - Exercises:
+      - Claude Projects Deep Dive: module-3/exercises/claude-projects-exercise.md
+    - Templates:
+      - Skill Design Template: module-3/templates/skill-design-template.md
+    - Troubleshooting:
+      - Claude Skills Troubleshooting: module-3/troubleshooting/claude-skills-troubleshooting.md
 
 theme:
   name: material
