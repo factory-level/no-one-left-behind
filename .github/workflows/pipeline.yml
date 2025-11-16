@@ -1,0 +1,98 @@
+name: Deploy MkDocs to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - 'requirements.txt'
+      - '.github/workflows/**'
+      - '.github/actions/**'
+
+env:
+  PYTHON_VERSION: '3.12'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Build MkDocs Site
+        uses: ./.github/actions/build
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mkdocs-site
+          path: site/
+          retention-days: 1
+  
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [build]
+    permissions:
+      contents: read
+      deployments: write
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Download Build Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: mkdocs-site
+          path: site/
+      
+      - name: Deploy to Cloudflare Pages
+        uses: ./.github/actions/deploy
+        with:
+          api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          project-name: learn-factorylevel-dev
+          domain: learn.factorylevel.dev
+          zone-domain: factorylevel.dev
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+  
+  verify:
+    runs-on: ubuntu-latest
+    needs: [deploy]
+    if: github.event_name == 'push'
+    
+    steps:
+      - name: Wait for DNS Propagation
+        run: |
+          echo "⏳ Waiting 30 seconds for DNS propagation..."
+          sleep 30
+      
+      - name: Verify MkDocs Site
+        run: |
+          echo "🔍 Verifying learn.factorylevel.dev deployment..."
+          for i in {1..5}; do
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" https://learn.factorylevel.dev)
+            if echo "$HTTP_CODE" | grep -q "200\|301\|302"; then
+              echo "✅ MkDocs site is accessible (HTTP $HTTP_CODE)"
+              break
+            else
+              echo "⏳ Attempt $i/5: Site returned HTTP $HTTP_CODE, waiting..."
+              sleep 10
+            fi
+          done
+      
+      - name: Deployment Summary
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🚀 Deployment Complete!"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📚 Course Site: https://learn.factorylevel.dev"
+          echo "⏰ Note: DNS propagation may take a few minutes"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
