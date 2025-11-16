@@ -1,0 +1,43 @@
+name: Build MkDocs Site
+description: Builds the MkDocs documentation site with Material theme
+
+inputs:
+  python-version:
+    description: 'Python version to use'
+    required: false
+    default: '3.12'
+
+runs:
+  using: composite
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ inputs.python-version }}
+        cache: 'pip'
+    
+    - name: Install Dependencies
+      shell: bash
+      run: |
+        echo "📦 Installing Python dependencies..."
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Build MkDocs Site
+      shell: bash
+      run: |
+        echo "🔨 Building MkDocs site..."
+        mkdocs build --strict --verbose
+        echo "✅ Build complete! Output in site/ directory"
+    
+    - name: Verify Build Output
+      shell: bash
+      run: |
+        if [ -d "site" ] && [ -f "site/index.html" ]; then
+          echo "✅ Build verification passed"
+          echo "📁 Site directory size: $(du -sh site | cut -f1)"
+        else
+          echo "❌ Build verification failed - site directory or index.html missing"
+          exit 1
+        fi
+
