@@ -36,6 +36,23 @@ nav:
       - Skill Design Template: module-3/templates/skill-design-template.md
     - Troubleshooting:
       - Claude Skills Troubleshooting: module-3/troubleshooting/claude-skills-troubleshooting.md
+  - Module 4 - Model Context Protocol (MCP):
+    - Overview: module-4/index.md
+    - "4.1 What is MCP?": module-4/sections/4-1-what-is-mcp.md
+    - "4.2 MCP Architecture Simplified": module-4/sections/4-2-mcp-architecture.md
+    - "4.3 Essential MCP Servers": module-4/sections/4-3-essential-mcp-servers.md
+    - "4.4 Installing First MCP Servers": module-4/sections/4-4-installing-mcp-servers.md
+    - "4.5 Claude Desktop MCP Configuration": module-4/sections/4-5-claude-desktop-config.md
+    - "4.6 Docker MCP Gateway": module-4/sections/4-6-docker-mcp-gateway.md
+    - Case Studies:
+      - Business Tool Integration: module-4/case-studies/business-tool-integration.md
+      - Real-World MCP Applications: module-4/case-studies/real-world-applications.md
+    - Exercises:
+      - MCP Server Installation Lab: module-4/exercises/mcp-server-installation.md
+      - Practical MCP Configuration: module-4/exercises/practical-mcp-config.md
+    - Troubleshooting:
+      - MCP Installation Issues: module-4/troubleshooting/mcp-installation-troubleshooting.md
+      - Configuration Challenges: module-4/troubleshooting/mcp-configuration-challenges.md
 
 theme:
   name: material
