@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/module-1/index.md",
+                "file": "docs/module-2/exercises/decision-tree-exercise.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "decision-tree-exercise"
             }
           }
         ],
@@ -186,27 +186,34 @@
   },
   "active": "15be837369a2ccce",
   "lastOpenFiles": [
+    "docs/module-1/index.md",
+    "docs/module-2/exercises/decision-tree-exercise.md.tmp.23876.1763266570382",
+    "docs/module-2/exercises/product-ecosystem-exploration.md.tmp.23876.1763266488861",
+    "docs/module-2/sections/2-4-tool-selection.md.tmp.23876.1763266366798",
+    "docs/module-2/sections/2-3-specialized-products.md.tmp.23876.1763266211407",
+    "docs/module-2/sections/2-2-web-interfaces.md.tmp.23876.1763266063909",
+    "docs/module-2/sections/2-1-llm-strengths.md.tmp.23876.1763265902886",
+    "mkdocs.yml.tmp.23876.1763265778570",
+    "docs/module-2/exercises/product-ecosystem-exploration.md",
+    "docs/module-2/exercises/product-ecosystem-exploration.md.tmp.23876.1763265767328",
+    "docs/module-2/exercises/decision-tree-exercise.md",
+    "docs/module-2/exercises/decision-tree-exercise.md.tmp.23876.1763265758558",
+    "docs/module-2/sections/2-4-tool-selection.md",
+    "docs/module-2/sections/2-4-tool-selection.md.tmp.23876.1763265750018",
+    "docs/module-2/sections/2-3-specialized-products.md",
+    "docs/module-2/sections/2-2-web-interfaces.md",
+    "docs/module-2/sections/2-1-llm-strengths.md",
+    "docs/module-2/index.md",
     "docs/module-1/sections/1-5-prompting-lab.md",
-    "docs/module-1/sections/1-5-prompting-lab.md.tmp.3063.1763264277361",
     "docs/module-1/sections/1-4-reasoning.md",
-    "docs/module-1/sections/1-4-reasoning.md.tmp.3063.1763264179873",
     "docs/module-1/sections/1-3-advanced-prompting.md",
-    "docs/module-1/sections/1-3-advanced-prompting.md.tmp.3063.1763264095759",
     "docs/module-1/sections/1-2-prompt-engineering.md",
-    "docs/module-1/sections/1-2-prompt-engineering.md.tmp.3063.1763264017317",
-    "docs/module-1/sections/1-1-llm-mechanics.md.tmp.3063.1763263959980",
     "docs/module-0/index.md",
     "docs/module-0/sections/0-1-course-orientation.md",
     "docs/module-1/sections/1-1-llm-mechanics.md",
-    "docs/module-1/sections/1-1-llm-mechanics.md.tmp.3063.1763263529170",
-    "docs/module-1/index.md",
-    "docs/module-1/index.md.tmp.3063.1763263512042",
-    "docs/module-1/sections",
-    "docs/module-1",
     "tmp/prompt.md",
     "DEPLOY.md",
     "COURSE.md",
-    "mkdocs-site-20251115-185638.zip",
     "site/assets/images/favicon.png",
     "README.md",
     "CLAUDE.md",
@@ -217,13 +224,6 @@
     "venv/lib/python3.12/site-packages/material/templates/assets/images/favicon.png",
     "venv/lib/python3.12/site-packages/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.svg",
     "venv/lib/python3.12/site-packages/mkdocs/themes/mkdocs/img/grid.png",
-    "venv/lib/python3.12/site-packages/mkdocs_get_deps-0.2.0.dist-info/licenses/LICENSE.md",
-    "venv/lib/python3.12/site-packages/pymdown_extensions-10.17.1.dist-info/licenses/LICENSE.md",
-    "venv/lib/python3.12/site-packages/backrefs-6.1.dist-info/licenses/LICENSE.md",
-    "venv/lib/python3.12/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
-    "venv/lib/python3.12/site-packages/markdown-3.10.dist-info/licenses/LICENSE.md",
-    "venv/lib/python3.12/site-packages/mkdocs_material_extensions-1.3.1.dist-info/licenses/LICENSE.md",
-    "venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
-    "Welcome.md"
+    "venv/lib/python3.12/site-packages/mkdocs_get_deps-0.2.0.dist-info/licenses/LICENSE.md"
   ]
 }
