@@ -16,10 +16,10 @@ nav:
     - 1.5 Practical Prompting Lab: module-1/sections/1-5-prompting-lab.md
   - Module 2 - LLM Landscape & Product Ecosystem:
     - Overview: module-2/index.md
-    - 2.1 The Major LLMs: Strengths & Use Cases: module-2/sections/2-1-llm-strengths.md
-    - 2.2 Product Ecosystem: Web Interfaces: module-2/sections/2-2-web-interfaces.md
+    - "2.1 The Major LLMs: Strengths & Use Cases": module-2/sections/2-1-llm-strengths.md
+    - "2.2 Product Ecosystem: Web Interfaces": module-2/sections/2-2-web-interfaces.md
     - 2.3 Specialized AI Products: module-2/sections/2-3-specialized-products.md
-    - 2.4 Choosing Your Tools: Decision Framework: module-2/sections/2-4-tool-selection.md
+    - "2.4 Choosing Your Tools: Decision Framework": module-2/sections/2-4-tool-selection.md
     - Exercises:
       - Decision Tree Exercise: module-2/exercises/decision-tree-exercise.md
       - Product Ecosystem Exploration: module-2/exercises/product-ecosystem-exploration.md
