@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/module-2/exercises/decision-tree-exercise.md",
-                "mode": "source",
+                "file": "docs/module-0/sections/0-3-workspace-understanding.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "decision-tree-exercise"
+              "title": "0-3-workspace-understanding"
             }
           }
         ],
@@ -186,6 +186,8 @@
   },
   "active": "15be837369a2ccce",
   "lastOpenFiles": [
+    "docs/module-0/sections/0-1-course-orientation.md",
+    "docs/module-2/exercises/decision-tree-exercise.md",
     "docs/module-4/case-studies/business-tool-integration.md.tmp.32074.1763269673051",
     "docs/module-4/exercises/mcp-server-installation.md.tmp.32074.1763269539354",
     "docs/module-4/sections/4-4-installing-mcp-servers.md.tmp.32074.1763269449445",
@@ -200,7 +202,6 @@
     "docs/module-4/exercises/practical-mcp-config.md",
     "docs/module-4/exercises/practical-mcp-config.md.tmp.32074.1763269048017",
     "docs/module-4/exercises/mcp-server-installation.md",
-    "docs/module-4/exercises/mcp-server-installation.md.tmp.32074.1763269041154",
     "docs/module-4/case-studies/real-world-applications.md",
     "docs/module-4/case-studies/business-tool-integration.md",
     "docs/module-4/sections/4-6-docker-mcp-gateway.md",
@@ -221,7 +222,6 @@
     "docs/module-3/index.md",
     "docs/module-1/index.md",
     "docs/module-2/exercises/product-ecosystem-exploration.md",
-    "docs/module-2/exercises/decision-tree-exercise.md",
     "site/assets/images/favicon.png",
     "venv/lib/python3.12/site-packages/material/templates/assets/images/favicon.png",
     "venv/lib/python3.12/site-packages/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.svg",

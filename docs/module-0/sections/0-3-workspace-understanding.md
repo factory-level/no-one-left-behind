@@ -36,6 +36,27 @@ Examples:
 ## Document Types in AI Workflows
 
 ### Markdown (.md)
+
+!!! warning "Why Markdown is Critical for This Course"
+    **Markdown is the universal language for AI work, and you'll use it throughout this entire course.**
+    
+    - **Every module uses Markdown**: From writing prompts in Module 1 to creating Claude Skills in Module 3, Markdown is your primary tool
+    - **AI systems excel at Markdown**: LLMs understand and generate Markdown naturally—it's how they communicate best
+    - **Universal compatibility**: Markdown works everywhere—GitHub, documentation sites, AI tools, and more
+    - **Future-proof your work**: Skills, prompts, and documentation in Markdown will work with any AI system you use
+    
+    **Master Markdown now.** If you're not comfortable with it yet, this is the time to learn. You'll use it in every exercise and project from here on out.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em 0;">
+  <iframe 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    src="https://www.youtube.com/embed/t9PiNRSQ_BU" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
 - Universal AI language
 - Supports rich formatting
 - Easy to read and process
