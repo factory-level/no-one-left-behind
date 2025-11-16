@@ -33,42 +33,60 @@ runs:
         directory: site
         gitHubToken: ${{ inputs.github-token }}
     
-    - name: Setup Cloudflare CLI (Wrangler)
-      shell: bash
-      run: |
-        echo "🔧 Installing Wrangler CLI..."
-        npm install -g wrangler
-        wrangler --version
-      env:
-        CLOUDFLARE_API_TOKEN: ${{ inputs.api-token }}
-    
     - name: Configure Custom Domain
       shell: bash
       run: |
         echo "🌐 Adding custom domain ${{ inputs.domain }} to project..."
-        wrangler pages project add-custom-domain ${{ inputs.project-name }} \
-          --domain ${{ inputs.domain }} || echo "⚠️  Domain may already be configured"
-      env:
-        CLOUDFLARE_API_TOKEN: ${{ inputs.api-token }}
-        CLOUDFLARE_ACCOUNT_ID: ${{ inputs.account-id }}
+        
+        # Add custom domain to Pages project using API
+        response=$(curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/${{ inputs.account-id }}/pages/projects/${{ inputs.project-name }}/domains" \
+          -H "Authorization: Bearer ${{ inputs.api-token }}" \
+          -H "Content-Type: application/json" \
+          --data "{\"name\":\"${{ inputs.domain }}\"}")
+        
+        if echo "$response" | grep -q '"success":true'; then
+          echo "✅ Custom domain added successfully"
+        elif echo "$response" | grep -q "already exists"; then
+          echo "⚠️  Domain already configured"
+        else
+          echo "⚠️  Response: $response"
+          echo "Note: Domain may already be configured or will be set up during DNS step"
+        fi
     
     - name: Setup DNS Record
       shell: bash
       run: |
         echo "📝 Creating DNS record for ${{ inputs.domain }}..."
         
+        # Get zone ID for the domain
+        ZONE_ID=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones?name=${{ inputs.zone-domain }}" \
+          -H "Authorization: Bearer ${{ inputs.api-token }}" \
+          -H "Content-Type: application/json" | grep -o '"id":"[^"]*"' | head -1 | cut -d'"' -f4)
+        
+        if [ -z "$ZONE_ID" ]; then
+          echo "❌ Could not find zone ID for ${{ inputs.zone-domain }}"
+          exit 1
+        fi
+        
+        echo "Found zone ID: $ZONE_ID"
+        
         # Extract subdomain from full domain
         SUBDOMAIN=$(echo "${{ inputs.domain }}" | sed "s/\.${{ inputs.zone-domain }}//")
         
-        # Create CNAME record
-        wrangler dns record create ${{ inputs.zone-domain }} \
-          --type CNAME \
-          --name "$SUBDOMAIN" \
-          --content ${{ inputs.project-name }}.pages.dev \
-          --ttl 1 \
-          --proxied || echo "⚠️  DNS record may already exist"
+        # Create CNAME record using API
+        dns_response=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records" \
+          -H "Authorization: Bearer ${{ inputs.api-token }}" \
+          -H "Content-Type: application/json" \
+          --data "{\"type\":\"CNAME\",\"name\":\"$SUBDOMAIN\",\"content\":\"${{ inputs.project-name }}.pages.dev\",\"ttl\":1,\"proxied\":true}")
+        
+        if echo "$dns_response" | grep -q '"success":true'; then
+          echo "✅ DNS record created successfully"
+        elif echo "$dns_response" | grep -q "already exists"; then
+          echo "⚠️  DNS record already exists"
+        else
+          echo "⚠️  Response: $dns_response"
+          echo "Note: DNS record may already exist"
+        fi
         
         echo "✅ DNS configuration complete"
-      env:
-        CLOUDFLARE_API_TOKEN: ${{ inputs.api-token }}
 
