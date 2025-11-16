@@ -7,6 +7,13 @@ nav:
     - 0.1 Course Orientation: module-0/sections/0-1-course-orientation.md
     - 0.2 Essential Setup: module-0/sections/0-2-essential-setup.md
     - 0.3 Understanding Your Workspace: module-0/sections/0-3-workspace-understanding.md
+  - Module 1 - Prompting Mastery:
+    - Overview: module-1/index.md
+    - 1.1 How LLMs Actually Work (Non-Technical): module-1/sections/1-1-llm-mechanics.md
+    - 1.2 Prompt Engineering Fundamentals: module-1/sections/1-2-prompt-engineering.md
+    - 1.3 Advanced Prompting Techniques: module-1/sections/1-3-advanced-prompting.md
+    - 1.4 Reasoning and Why It Matters: module-1/sections/1-4-reasoning.md
+    - 1.5 Practical Prompting Lab: module-1/sections/1-5-prompting-lab.md
 
 theme:
   name: material
