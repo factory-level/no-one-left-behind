@@ -30,6 +30,8 @@ We'll set up accounts on the "Big Three" AI platforms that complement each other
 
 #### 1. Anthropic Account for Claude
 
+<img src="https://www.malwarebytes.com/wp-content/uploads/sites/2/2025/08/Claude_logo.png" alt="Anthropic Claude Logo" width="120" />
+
 **Step-by-Step Setup:**
 
 1. **Visit** [claude.ai](https://claude.ai)
@@ -53,6 +55,8 @@ We'll set up accounts on the "Big Three" AI platforms that complement each other
     This tests Claude's ability to teach and provide structured examples.
 
 #### 2. OpenAI Account for ChatGPT
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="OpenAI ChatGPT Logo" width="120" />
 
 **Step-by-Step Setup:**
 
@@ -78,6 +82,8 @@ We'll set up accounts on the "Big Three" AI platforms that complement each other
     This tests ChatGPT's ability to have interactive conversations and provide personalized recommendations.
 
 #### 3. Google Account for Gemini
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Gemini_logo.svg" alt="Google Gemini Logo" width="120" />
 
 **If you already have a Google account:**
 1. **Visit** [gemini.google.com](https://gemini.google.com)
@@ -105,6 +111,8 @@ We'll set up accounts on the "Big Three" AI platforms that complement each other
 
 #### 4. GitHub Account (Essential for AI Tools)
 
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="120" />
+
 GitHub hosts most AI tools, code samples, and integrations you'll use throughout this course.
 
 **Step-by-Step Setup:**
@@ -129,6 +137,8 @@ GitHub hosts most AI tools, code samples, and integrations you'll use throughout
 ## Essential Tools Installation
 
 ### Your AI-Ready Text Editor: VS Code
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="Visual Studio Code Logo" width="120" />
 
 Think of VS Code as your mission control for AI work. Unlike basic text editors, VS Code understands code, can work with AI tools, and makes file management simple.
 

@@ -78,15 +78,15 @@ Examples:
     ```
 
 ### CSV (Comma-Separated Values)
-- Perfect for tabular data
+- Perfect for tables
 - Easily manipulated by AI
 - Lightweight and universal
 
 === "Sample CSV"
     ```csv
-    name,role,department,productivity_score
-    jane_doe,analyst,research,8.5
-    john_smith,manager,operations,7.2
+    name,role,department,productivity_score <--- Heading Row
+    jane_doe,analyst,research,8.5 <--- Like Excel Rows
+    john_smith,manager,operations,7.2 <--- Like Excel Rows
     ```
 
 ### JSON (JavaScript Object Notation)
