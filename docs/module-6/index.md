@@ -1,4 +1,15 @@
 # Module 6: OpenAI AgentKit
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em 0;">
+  <iframe 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    src="https://www.youtube.com/embed/DwGNK1DUFsM" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
 ## Low-code agent building for rapid prototyping
 
 Welcome to Module 6, where you'll learn to build sophisticated AI agents using OpenAI's AgentKit platform. This module bridges the gap between understanding agents (Module 5) and building advanced automation systems (Modules 7-8).

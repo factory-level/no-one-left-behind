@@ -100,6 +100,30 @@ nav:
       - n8n Workflow Lab: module-7/exercises/n8n-workflow-lab.md
     - Troubleshooting:
       - Common Issues: module-7/troubleshooting/common-issues.md
+  - Module 8 - Claude Code - Your Agent Development Environment:
+    - Overview: module-8/index.md
+    - "8.1 What is Claude Code?": module-8/sections/8-1-what-is-claude-code.md
+    - "8.2 Installing and Configuring Claude Code": module-8/sections/8-2-installation-and-configuration.md
+    - "8.3 Claude Code Fundamentals": module-8/sections/8-3-claude-code-fundamentals.md
+    - "8.4 Working with Files in Claude Code": module-8/sections/8-4-file-operations.md
+    - "8.5 Claude Skills in Claude Code": module-8/sections/8-5-claude-skills.md
+    - "8.6 MCPs in Claude Code": module-8/sections/8-6-mcps-in-claude-code.md
+    - "8.7 Sub-Agents: Managing Context Windows": module-8/sections/8-7-sub-agents.md
+    - "8.8 The .claude Directory": module-8/sections/8-8-claude-directory.md
+    - "8.9 Creating Custom Commands": module-8/sections/8-9-custom-commands.md
+    - "8.10 agents.md Files": module-8/sections/8-10-agents-markdown.md
+    - "8.11 Reading Documentation Like a Pro": module-8/sections/8-11-documentation-skills.md
+    - "8.12 Practical Claude Code Projects": module-8/sections/8-12-practical-projects.md
+    - Case Studies:
+      - Monthly Reporting Automation: module-8/case-studies/monthly-reporting.md
+      - Document Compliance Workflow: module-8/case-studies/document-compliance.md
+      - Stakeholder Communication Tracking: module-8/case-studies/stakeholder-tracking.md
+    - Exercises:
+      - Lab 1 - Basic File Operations: module-8/exercises/lab-1-file-operations.md
+      - Lab 2 - Custom Commands: module-8/exercises/lab-2-custom-commands.md
+      - Lab 3 - Sub-Agent Design: module-8/exercises/lab-3-sub-agent-design.md
+    - Troubleshooting:
+      - Common Issues: module-8/troubleshooting/common-issues.md
 
 theme:
   name: material
