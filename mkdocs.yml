@@ -53,6 +53,17 @@ nav:
     - Troubleshooting:
       - MCP Installation Issues: module-4/troubleshooting/mcp-installation-troubleshooting.md
       - Configuration Challenges: module-4/troubleshooting/mcp-configuration-challenges.md
+  - Module 5 - Introduction to Agents:
+    - Overview: module-5/index.md
+    - "5.1 What Are AI Agents?": module-5/sections/5-1-what-are-ai-agents.md
+    - "5.2 Agent Architecture Fundamentals": module-5/sections/5-2-agent-architecture.md
+    - "5.3 Multi-Agent Systems: The Power of Specialization": module-5/sections/5-3-multi-agent-systems.md
+    - "5.4 Agent Design Principles": module-5/sections/5-4-agent-design-principles.md
+    - "5.5 Planning Your First Agent System": module-5/sections/5-5-planning-agent-systems.md
+    - Case Studies:
+      - Real-World Agent Applications: module-5/case-studies/real-world-agent-applications.md
+    - Exercises:
+      - Agent Design Challenge: module-5/exercises/agent-design-challenge.md
 
 theme:
   name: material
