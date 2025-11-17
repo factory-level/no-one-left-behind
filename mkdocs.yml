@@ -87,6 +87,19 @@ nav:
     - Troubleshooting:
       - Common Issues: module-6/troubleshooting/common-issues.md
       - Best Practices: module-6/troubleshooting/best-practices.md
+  - Module 7 - N8N Workflow Automation:
+    - Overview: module-7/index.md
+    - "7.1 What is n8n?": module-7/sections/7-1-n8n-overview.md
+    - "7.2 Setting Up n8n": module-7/sections/7-2-n8n-setup.md
+    - "7.3 n8n Core Concepts": module-7/sections/7-3-n8n-core-concepts.md
+    - "7.4 AI Integration in n8n": module-7/sections/7-4-n8n-ai-integration.md
+    - "7.5 Building Multi-Agent Workflows": module-7/sections/7-5-multi-agent-workflows.md
+    - Case Studies:
+      - Workflow Automation Examples: module-7/case-studies/workflow-automation-examples.md
+    - Exercises:
+      - n8n Workflow Lab: module-7/exercises/n8n-workflow-lab.md
+    - Troubleshooting:
+      - Common Issues: module-7/troubleshooting/common-issues.md
 
 theme:
   name: material
