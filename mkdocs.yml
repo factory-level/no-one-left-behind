@@ -64,6 +64,29 @@ nav:
       - Real-World Agent Applications: module-5/case-studies/real-world-agent-applications.md
     - Exercises:
       - Agent Design Challenge: module-5/exercises/agent-design-challenge.md
+  - Module 6 - OpenAI AgentKit:
+    - Overview: module-6/index.md
+    - "6.1 AgentKit Overview": module-6/sections/6-1-agentkit-overview.md
+    - "6.2 Setup & First Agent": module-6/sections/6-2-setup-first-agent.md
+    - "6.3 Templates & Pre-built Solutions": module-6/sections/6-3-templates-prebuilt.md
+    - "6.4 Business Process Agents": module-6/sections/6-4-business-process-agents.md
+    - "6.5 Data & Research Agents": module-6/sections/6-5-data-research-agents.md
+    - "6.6 Customer Service Agents": module-6/sections/6-6-customer-service-agents.md
+    - "6.7 Multi-Agent Systems": module-6/sections/6-7-multi-agent-systems.md
+    - "6.8 Integration Strategies": module-6/sections/6-8-integration-strategies.md
+    - Case Studies:
+      - Expense Automation: module-6/case-studies/expense-automation.md
+      - Market Research Pipeline: module-6/case-studies/market-research-pipeline.md
+      - Customer Onboarding: module-6/case-studies/customer-onboarding.md
+    - Exercises:
+      - "Lab 1: First Agent": module-6/exercises/lab-1-first-agent.md
+      - "Lab 2: Business Automation": module-6/exercises/lab-2-business-automation.md
+      - "Lab 3: Research Agent": module-6/exercises/lab-3-research-agent.md
+      - "Lab 4: Customer Service": module-6/exercises/lab-4-customer-service.md
+      - "Lab 5: Multi-Agent System": module-6/exercises/lab-5-multi-agent-system.md
+    - Troubleshooting:
+      - Common Issues: module-6/troubleshooting/common-issues.md
+      - Best Practices: module-6/troubleshooting/best-practices.md
 
 theme:
   name: material
@@ -92,8 +115,6 @@ theme:
     repo: fontawesome/brands/github
   features:
     # Navigation
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.path
