@@ -438,6 +438,112 @@ David, a marketing director, uses Gemini to analyze campaign performance data st
 
 ---
 
+## Perplexity: Your Research & Information Discovery Engine
+
+Perplexity is designed as a research-first AI interface that combines real-time web search with AI-powered synthesis. Think of it as your research assistant that can browse the web, cite sources, and provide comprehensive answers with full transparency about where information comes from.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em 0;">
+  <iframe 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    src="https://www.youtube.com/embed/LnURCxwsB34" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+### Core Features Deep Dive
+
+#### Real-Time Web Search with Citations
+
+**What Makes This Special:**
+Perplexity automatically searches the web for current information and provides direct citations for every claim. Unlike other AI interfaces that rely on training data, Perplexity gives you up-to-date information with full source transparency.
+
+**How It Works:**
+1. You ask a question or request research
+2. Perplexity searches the web in real-time
+3. It synthesizes information from multiple sources
+4. Provides a comprehensive answer with numbered citations
+5. You can click citations to verify sources
+
+**Types of Research Tasks:**
+- **Current Events**: "What are the latest developments in AI regulation?"
+- **Market Research**: "What are the top trends in SaaS pricing models for 2024?"
+- **Competitive Intelligence**: "How do our competitors position their products?"
+- **Technical Research**: "What are the best practices for implementing MCP servers?"
+
+**Business Use Case:**
+Rachel, a product manager, uses Perplexity to research competitor features before planning her product roadmap. She asks: "What new features have been released by our top 5 competitors in the last quarter?" Perplexity searches current sources, synthesizes the information, and provides citations so Rachel can verify and dive deeper into specific announcements.
+
+#### Focused Research Modes
+
+**Pro Search Mode:**
+- Deeper, more comprehensive research
+- Access to academic and professional sources
+- Enhanced citation quality
+- Better for complex, multi-faceted questions
+
+**Copilot Mode:**
+- Interactive research assistant
+- Follow-up questions and clarifications
+- Iterative refinement of research
+- Best for exploratory research where you're not sure what you're looking for
+
+**How to Choose:**
+- **Use Pro Search** for: Specific questions with clear parameters, academic research, competitive analysis
+- **Use Copilot** for: Exploratory research, brainstorming, when you need to refine your question
+
+#### Collections: Organizing Your Research
+
+**What Collections Are:**
+Collections allow you to save and organize research threads, creating a knowledge base of your findings that you can reference later.
+
+**Creating Effective Collections:**
+1. **By Project**: "Q4 Market Analysis", "Competitor Research", "Industry Trends"
+2. **By Topic**: "AI Regulation Updates", "Customer Feedback Themes", "Technology Stack Research"
+3. **By Time Period**: "Weekly Industry News", "Monthly Competitive Updates"
+
+**Business Application:**
+James, a business development director, creates a Collection for each potential client. He researches their company, industry position, recent news, and key personnel. When it's time to prepare for meetings, he has all his research organized and easily accessible.
+
+### Interface Decision Framework: When to Choose Perplexity
+
+**Choose Perplexity When:**
+- Need current, up-to-date information (not training data)
+- Research requires multiple sources and citations
+- Exploring topics where you need to verify sources
+- Conducting competitive or market research
+- Need transparency about information sources
+- Working on research-heavy projects
+
+**Avoid Perplexity When:**
+- Need to process large uploaded documents
+- Require deep analytical reasoning on existing data
+- Working with proprietary or sensitive information
+- Need sustained context across long conversations
+- Creating substantial documents or artifacts
+
+### Navigation Tutorial: Getting Started with Perplexity
+
+**Step 1: Understanding the Interface**
+1. Start with a clear research question
+2. Choose between standard search, Pro Search, or Copilot mode
+3. Review the synthesized answer
+4. Click through citations to verify sources
+
+**Step 2: Effective Research Queries**
+- Be specific about what you need: "What are the top 3 trends in remote work technology for 2024?"
+- Request citations: "Provide sources for each claim"
+- Ask for structured output: "Organize findings by category with pros and cons"
+
+**Step 3: Organizing Your Research**
+1. Create Collections for ongoing research topics
+2. Save important research threads
+3. Build a knowledge base over time
+4. Reference Collections when starting new related research
+
+---
+
 ## Comparison Framework: Choosing the Right Interface
 
 ### The Three-Question Decision Tree
@@ -446,30 +552,34 @@ David, a marketing director, uses Gemini to analyze campaign performance data st
 - Small (1-5 documents): ChatGPT or Claude.ai
 - Medium (5-20 documents): Claude.ai
 - Large (20+ documents or massive files): Gemini
+- Current web research: Perplexity
 
 **Question 2: What type of thinking do you need?**
 - Quick responses and creativity: ChatGPT
 - Deep analysis and reasoning: Claude.ai
 - Large-scale pattern recognition: Gemini
+- Research with citations: Perplexity
 
 **Question 3: What's your integration requirement?**
 - Standalone AI assistance: Any platform
 - Google Workspace integration: Gemini
 - Specialized pre-built tools: ChatGPT (Custom GPTs)
 - Sustained project work: Claude.ai (Projects)
+- Research and information discovery: Perplexity
 
 ### Feature Comparison Matrix
 
-| Capability | Claude.ai | ChatGPT | Gemini |
-|------------|-----------|---------|---------|
-| **Context Management** | Excellent (Projects) | Good (Memory) | Excellent (Long context) |
-| **Document Processing** | Good (200K tokens) | Basic (smaller files) | Excellent (2M tokens) |
-| **Reasoning Depth** | Excellent | Good | Good |
-| **Speed** | Medium | Fast | Medium |
-| **Specialization** | Custom instructions | Custom GPTs | Extensions |
-| **Collaboration** | Artifacts | Canvas | Workspace integration |
-| **File Upload Size** | 200K tokens | Smaller | 2M tokens |
-| **Web Integration** | Limited | Limited | Google ecosystem |
+| Capability | Claude.ai | ChatGPT | Gemini | Perplexity |
+|------------|-----------|---------|---------|------------|
+| **Context Management** | Excellent (Projects) | Good (Memory) | Excellent (Long context) | Good (Collections) |
+| **Document Processing** | Good (200K tokens) | Basic (smaller files) | Excellent (2M tokens) | Limited (web sources) |
+| **Reasoning Depth** | Excellent | Good | Good | Good |
+| **Speed** | Medium | Fast | Medium | Fast |
+| **Specialization** | Custom instructions | Custom GPTs | Extensions | Research modes |
+| **Collaboration** | Artifacts | Canvas | Workspace integration | Collections |
+| **File Upload Size** | 200K tokens | Smaller | 2M tokens | Limited |
+| **Web Integration** | Limited | Limited | Google ecosystem | Excellent (real-time search) |
+| **Citation Quality** | None | Limited | Limited | Excellent (source links) |
 
 ### Business Task Mapping
 
@@ -484,6 +594,7 @@ David, a marketing director, uses Gemini to analyze campaign performance data st
 - Creative problem-solving: ChatGPT (Custom GPTs)
 
 **Research Tasks:**
+- Current events & market research: Perplexity (real-time search + citations)
 - Focused research: Claude.ai (sustained analysis)
 - Quick fact-checking: ChatGPT (speed)
 - Comprehensive research: Gemini (extensions + context)
@@ -539,6 +650,13 @@ David, a marketing director, uses Gemini to analyze campaign performance data st
 - Integrate with your existing Google workflow
 - Take advantage of massive context capacity
 
+**Perplexity Optimization:**
+- Use Pro Search for complex research questions
+- Leverage Copilot mode for exploratory research
+- Create Collections to organize ongoing research
+- Always review citations to verify sources
+- Build knowledge bases over time with saved threads
+
 ### Cost and Efficiency Considerations
 
 **Free Tier Optimization:**
@@ -550,9 +668,11 @@ David, a marketing director, uses Gemini to analyze campaign performance data st
 - Claude.ai Pro: For sustained analytical work and large Projects
 - ChatGPT Plus: For daily quick tasks and Custom GPT access
 - Gemini Advanced: For Google Workspace users with large datasets
+- Perplexity Pro: For research-heavy work requiring current information and citations
 
 **Time Management:**
 - Quick tasks (< 10 minutes): ChatGPT
+- Research tasks (10-30 minutes): Perplexity
 - Medium projects (10-60 minutes): Claude.ai
 - Large analysis (> 1 hour): Gemini for preparation, Claude.ai for analysis
 
@@ -562,25 +682,27 @@ David, a marketing director, uses Gemini to analyze campaign performance data st
 
 ### Exercise 1: Interface Setup Sprint (30 minutes)
 
-**Objective**: Set up optimal configurations for all three interfaces
+**Objective**: Set up optimal configurations for all four interfaces
 
 **Tasks**:
 1. **Claude.ai**: Create one Project for your primary work domain
 2. **ChatGPT**: Set up Memory with your role and preferences
 3. **Gemini**: Enable Google Workspace integration and relevant extensions
+4. **Perplexity**: Create your first Collection for ongoing research
 
 **Deliverable**: Screenshot of each interface configured with your work context
 
-### Exercise 2: Same Task, Three Interfaces (45 minutes)
+### Exercise 2: Same Task, Four Interfaces (45 minutes)
 
 **Objective**: Experience how each interface handles the same business task
 
-**Scenario**: "Analyze our team's productivity trends and suggest improvements"
+**Scenario**: "Research current best practices for remote team productivity and suggest improvements"
 
 **Tasks**:
-1. **Claude.ai**: Use Projects feature to analyze team productivity
-2. **ChatGPT**: Use a relevant Custom GPT for the same analysis
-3. **Gemini**: Upload team data files and perform analysis
+1. **Perplexity**: Research current best practices with citations
+2. **Claude.ai**: Use Projects feature to analyze team productivity based on research
+3. **ChatGPT**: Use a relevant Custom GPT for the same analysis
+4. **Gemini**: Upload team data files and perform analysis
 
 **Deliverable**: Comparison document noting differences in approach, output quality, and user experience
 
