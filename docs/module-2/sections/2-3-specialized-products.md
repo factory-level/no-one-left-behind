@@ -43,6 +43,16 @@ NotebookLM transforms your static documents into an interactive, intelligent kno
 4. **Intelligent Responses**: Get answers with direct citations to source material
 5. **Audio Summaries**: Generate podcast-style overviews of your documents
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em 0;">
+  <iframe 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    src="https://www.youtube.com/embed/tiM8Bk_pOdg" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
 ### Key Features Deep Dive
 
 **Document Ingestion**
