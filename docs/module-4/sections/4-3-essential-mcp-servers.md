@@ -1,6 +1,10 @@
 # 4.3 Essential MCP Servers
 ## The Tools That Will Transform Your Daily Work
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/p0pR_zq-85M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Think of MCP servers as hiring specialists for different aspects of your work. Each one excels at connecting Claude with specific types of tools and tasks. Let's explore the essential ones that deliver immediate value for business professionals.
 
 ## The "Big 6" Essential MCP Servers
