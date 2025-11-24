@@ -1,5 +1,9 @@
 # 1.4 Reasoning and Why It Matters
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/enLbj0igyx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 _Getting AI to think, not just respond_
 
 Have you ever asked someone for advice and gotten a quick, surface-level answer that missed important nuances? That's what happens when AI responds without reasoning. But when you teach AI to think through problems systematically, the quality of insights jumps dramatically. This section shows you how to unlock AI's reasoning capabilities.
